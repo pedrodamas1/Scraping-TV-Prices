@@ -1,11 +1,21 @@
-# Scraping-TV-Prices
-Title: TV Intelligence: Harnessing Web Scraping for Informed Purchases
+# Uncovering TV Prices: A Data Scraping Endeavor
 
-Summary:
-TV Intelligence is a Python project designed to empower consumers in making informed decisions when purchasing a television. Leveraging web scraping techniques, this project extracts comprehensive information from an online technology retailer, including prices, dimensions, screen technology, and more. The process involves utilizing CSS and HTML knowledge alongside Python libraries such as requests, BeautifulSoup, matplotlib, seaborn, numpy, pandas, and logging. The gathered data is cleaned, analyzed, and visualized to provide users with actionable insights, enabling them to compare TV models effectively and optimize their purchasing decisions. By amalgamating technology, data analysis, and business intelligence, TV Intelligence equips consumers with the tools necessary to navigate the complex landscape of television purchases confidently.
+The project "Uncovering TV Prices: A Data Scraping Endeavor" aims to gain deeper insights into the market positioning and strategies of TV manufacturers by analyzing a comprehensive dataset of TV prices and specifications.
 
-![](img/worten.png)
+The objectives include market segmentation, competitive analysis, brand perception, feature preference analysis, and providing strategic recommendations for manufacturers. The data scraping process involves extracting insights from Worten's e-commerce platform, a prominent Portuguese technology retailer offering 542 televisions for analysis. 
+
+Through this project, valuable insights into consumer demographics, market trends, and competitive advantages are expected to be revealed. Below is showcased one of the many diagrams studied in this project.
+
+![](img/brand_price_boxplot.png)
+
+The Python libraries leveraged in this project included:
 
 ```python
-import matplotlib
+import requests
+from bs4 import BeautifulSoup
+import logging
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 ```
